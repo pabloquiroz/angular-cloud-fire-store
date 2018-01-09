@@ -9,8 +9,7 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico",
-        "manifest.json"
+        "favicon.ico"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -20,19 +19,14 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "sass/themes/app-theme.scss",
-        "sass/styles.scss"
+        "styles.css"
       ],
-      "stylePreprocessorOptions": {
-        "includePaths": ["./", "./sass/themes"]
-      },
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
-      },
-      "serviceWorker": true
+      }
     }
   ],
   "e2e": {
@@ -60,10 +54,9 @@
     }
   },
   "defaults": {
-    "styleExt": "scss",
+    "styleExt": "css",
     "component": {
       "inlineStyle": true,
-      "inlineTemplate": true
-    }
+      "inlineTemplate": true}
   }
 }

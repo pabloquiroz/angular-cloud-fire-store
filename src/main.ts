@@ -1,4 +1,3 @@
-import 'hammerjs';
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
@@ -10,12 +9,4 @@ if (environment.production) {
 }
 
 platformBrowserDynamic().bootstrapModule(AppModule)
-  .then(() => {
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/ngsw-worker.js') ;
-    }
-  })
   .catch(err => console.log(err));
-
-
-
