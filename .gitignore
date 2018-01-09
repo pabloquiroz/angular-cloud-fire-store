@@ -3,6 +3,7 @@
 # compiled output
 /dist
 /tmp
+/cypress
 /out-tsc
 
 # dependencies
