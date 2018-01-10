@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+@import './variables';
+@import './mixins';
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  position: relative;
+  min-height: 100%;
+  font-family: $font-stack;
+  line-height: 1.5;
+  margin: 0;
+}
+
+p{
+  margin-bottom: 15px;
+}
+
+
+
+/************************** HEADER ****************************/
+
+app-headline{
+  color: $font-header-color;
+}
+
+
+/************************** FORM ****************************/
+
+form{
+  width: 100%;   
+}
+
+/************************  END FORM *************************/
+
+
+
+/************************* APPLICATION ***********************/
+
+.app-background{
+  background: $background-color;
+}
+
+.app-footer{
+  background: $primary-color;
+  color: $font-header-color;
+}
+
+/***************************** END **************************/
+
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.material-icons.box-product { color:#283593}
+
+

@@ -1,0 +1,19 @@
+{
+  "short_name": "Site",
+  "name": "Small Site",
+  "start_url": "/",
+
+  "theme_color": "#1A237E",
+  "background_color": "#ffffff",
+
+  "display": "standalone",
+  "orientation": "portrait",
+
+  "icons": [
+    {
+      "src": "/assets/icons/angular-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
